@@ -1,0 +1,11 @@
+.recipe-container-parent {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.recipe-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 45px;
+    margin: 50px;
+}
